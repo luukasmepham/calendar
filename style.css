@@ -1,0 +1,32 @@
+body {
+    background-color: #165B33;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BB2528;
+    border: 3px solid #f8B229;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #f8B229;
+    aspect-ratio: 1 / 1;
+}
+
+.tile.revealed {
+    background-color: #f8B229;
+    font-size: 0;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+}
