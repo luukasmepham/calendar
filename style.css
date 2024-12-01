@@ -24,6 +24,8 @@ body {
 .tile.revealed {
     background-color: #f8B229;
     font-size: 0;
+    border: 1px solid #f8B229;
+    padding: 0px;
 }
 
 .tile img {
